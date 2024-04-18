@@ -1,0 +1,208 @@
+.nav-main{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 5rem;
+    background: #ffffff;
+}
+
+.nav-title{
+    color: #2676ef;
+    font-family: "Gideon Roman";
+    margin-right: 10%;
+}
+
+.nav-search{
+    border: 0px;
+    font-size: 1rem;
+    font-family: "Inter";
+    color:#6b6b6b;
+    border: 1px solid #828282;
+    border-radius: 14px;
+    width: 30rem;
+    height: 3rem;
+    border-color: #6b6b6b;
+    margin-right: 5%;
+}
+
+.nav-login{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-right: 5%;
+    background: #2676ef;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+}
+
+
+.nav-socials{
+    display: flex;
+}
+
+.nav-socials > img{
+    margin-right: 8%;
+}
+
+.categories-widget{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    justify-content: center;
+    background: #2676ef;
+    width: 100%;
+    margin-top: 6rem;
+}
+
+.categories-widget > h5 {
+    color: white;
+    margin-right: 4%;
+}
+
+.top-stories-tiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-stories-header{
+    font-family: "Gideon Roman";
+    font-size: 2.5rem;        
+}
+
+.top-stories-super-tile{
+    width: 40rem;
+    height: 40rem;
+    background: url("../img/img_1.png");
+}
+
+.top-stories-super-tile-header{
+    position: relative;
+    color: #ffffff;
+    font-family: "Gideon Roman";
+    font-size: 2rem;
+    width: 30rem;
+    height: 10rem;
+    margin-bottom:5%;     
+}
+
+.top-stories-info{
+    position: absolute;
+    bottom: 3rem;
+    width: 30rem;
+    height: 20rem;
+    margin-left: 10%;
+}
+
+.top-stories-about{
+    display: flex;
+    width: 35rem;
+}
+
+.top-stories-author{
+    color: white;
+    font-family: "Inter";
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.top-stories-date{
+    color: white;
+    font-family: "Inter";
+    margin-right: 10%;
+}
+
+.top-stories-clicker{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20%;
+    width: 10rem;
+    height: 2.5rem;
+    font-family: "Inter";
+    border-radius: 60px;
+    background-color: #d9d9d9;
+}
+
+.top-stories-shape{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 30px;
+    background: #000000;
+}
+
+.top-stories-row{
+    display:flex
+}
+
+.sub-tile-1{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 19.6rem;
+    height: 19.6rem;
+    position: relative;
+    background: url("../img/img_2.png");
+}
+
+.sub-tile-2{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 19.6rem;
+    height: 19.6rem;
+    position: relative;
+    background: url("../img/img_3.png");
+
+}
+
+.sub-tile-3{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 19.6rem;
+    height: 19.6rem;
+    position: relative;
+    background: url("../img/img_4.png");
+
+}
+
+.sub-tile-4{
+    margin-bottom: 1%;
+    margin-left: 1%;
+    width: 19.6rem;
+    height: 19.6rem;
+    position: relative;
+    background: url("../img/img_5.png");
+
+}
+
+.sub-tile-info{
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 1rem;
+    justify-content: center;
+    margin-left:15%;
+}
+
+.sub-tile-header{
+    position: relative;
+    color: #ffffff;
+    font-family: "Gideon Roman";
+    font-size: 2rem;
+    width: 80%;
+    height: 10rem;
+    margin-bottom:5%; 
+}
+
+
+.sub-tile-date{
+    color: white;
+    font-family: "Inter";
+    margin-right: 10%;
+}
